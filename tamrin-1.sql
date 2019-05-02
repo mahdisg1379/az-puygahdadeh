@@ -14,6 +14,6 @@ insert into `product`(name,price) values('iphone8','8000000');
 delete from `product`;
 
 -- بروزرسانی مقدار فیلدی در ردیف های درون یک جدول
-update `product` set price='12000';
+update `product` set price=12000;
 -- مثال دیگر
 update `product` set price=price+30000;
