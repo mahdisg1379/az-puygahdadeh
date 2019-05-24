@@ -21,6 +21,12 @@ select * from `product` order by id DESC;
 -- محاسبه مجموع مقدار فیلدی در یک جدول
 select sum(price) from `product`;
 
+-- یافتن کمترین مقدار فیلدی در یک جدول
+select min(price) from `product`;
+
+-- یافتن بیشترین مقدار فیلدی در یک جدول
+select max(price) from `product`;
+
 -- محاسبه میانگین مقدار فیلدی در یک جدول
 select avg(price) from `product`;
 
